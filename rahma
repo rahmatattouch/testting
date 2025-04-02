@@ -1,0 +1,21 @@
+public class Rahmha {
+    String name = "Rahmha";
+    int age;
+    public Rahmha(int age) {
+        this.age = age;
+    }
+    public void sayHello() {
+        System.out.println("Hello, my name is " + this.name);
+    }
+    public void sayAge() {
+        System.out.println("I am " + this.age + " years old");
+    }
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        
+    }
+
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
